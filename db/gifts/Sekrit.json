@@ -1,0 +1,53 @@
+{
+  "SENKO": {
+    "sender": "System",
+    "messageText": "What? Why could there be some MILK as gifts.",
+    "collectionTimeHours": 48,
+    "timestampToSend": 42069,
+    "associatedEvent": "Promo",
+    "items":[
+      {
+        "_id": "b0740b8bce88f1d1139133b2",
+        "_tpl": "575146b724597720a27126d5",
+        "upd": {
+          "StackObjectsCount": 1
+        }
+      },
+      {
+        "_id": "b0740b8bce88f1d1139133b2",
+        "_tpl": "575146b724597720a27126d5",
+        "upd": {
+          "StackObjectsCount": 1
+        }
+      },
+      {
+        "_id": "b0740b8bce88f1d1139133b2",
+        "_tpl": "575146b724597720a27126d5",
+        "upd": {
+          "StackObjectsCount": 1
+        }
+      },
+      {
+        "_id": "b0740b8bce88f1d1139133b2",
+        "_tpl": "575146b724597720a27126d5",
+        "upd": {
+          "StackObjectsCount": 1
+        }
+      },
+      {
+        "_id": "b0740b8bce88f1d1139133b2",
+        "_tpl": "575146b724597720a27126d5",
+        "upd": {
+          "StackObjectsCount": 1
+        }
+      },
+      {
+        "_id": "b0740b8bce88f1d1139133b2",
+        "_tpl": "5734773724597737fd047c14",
+        "upd": {
+          "StackObjectsCount": 3
+        }
+      }
+    ]
+  }
+}
