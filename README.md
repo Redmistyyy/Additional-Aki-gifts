@@ -1,2 +1,2 @@
-# Additional-Aki-gifts
- More gifts code for Aki with vallina gift system.
+# Additional-Spt-gifts
+ More gifts code for SPT project with vallina gift system.
