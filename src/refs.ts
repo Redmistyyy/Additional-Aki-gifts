@@ -3,14 +3,14 @@
 
 import { DependencyContainer }              from "tsyringe";
 
-import { DatabaseServer }                   from "@spt-aki/servers/DatabaseServer";
-import { IDatabaseTables }                  from "@spt-aki/models/spt/server/IDatabaseTables";
-import { ConfigServer }                     from "@spt-aki/servers/ConfigServer";
-import { JsonUtil }                         from "@spt-aki/utils/JsonUtil";
-import { ImporterUtil }                     from "@spt-aki/utils/ImporterUtil";
-import { PreAkiModLoader }                  from "@spt-aki/loaders/PreAkiModLoader";
-import { IGiftsConfig }                     from "@spt-aki/models/spt/config/IGiftsConfig";
-import { ConfigTypes }                      from "@spt-aki/models/enums/ConfigTypes";
+import { DatabaseServer }                   from "@spt/servers/DatabaseServer";
+import { IDatabaseTables }                  from "@spt/models/spt/server/IDatabaseTables";
+import { ConfigServer }                     from "@spt/servers/ConfigServer";
+import { JsonUtil }                         from "@spt/utils/JsonUtil";
+import { ImporterUtil }                     from "@spt/utils/ImporterUtil";
+import { PreSptModLoader }                  from "@spt/loaders/PreSptModLoader";
+import { IGiftsConfig }                     from "@spt/models/spt/config/IGiftsConfig";
+import { ConfigTypes }                      from "@spt/models/enums/ConfigTypes";
 
 
 export class References 
@@ -18,7 +18,7 @@ export class References
     public modName: string;
 
     public container: DependencyContainer;
-    public preAkiModLoader: PreAkiModLoader;
+    public preSptModLoader: PreSptModLoader;
     public configServer: ConfigServer;
 
     public database: DatabaseServer;
@@ -29,12 +29,12 @@ export class References
 
 
 
-    public preAkiLoad(container: DependencyContainer, mod: string): void
+    public preSptLoad(container: DependencyContainer, mod: string): void
     {
         this.modName = mod;
 
         this.container = container;
-        this.preAkiModLoader = container.resolve<PreAkiModLoader>("PreAkiModLoader");
+        this.preSptModLoader = container.resolve<PreSptModLoader>("PreSptModLoader");
         this.configServer = container.resolve<ConfigServer>("ConfigServer");
         this.importerUtil = container.resolve<ImporterUtil>("ImporterUtil");
         this.jsonUtil = container.resolve<JsonUtil>("JsonUtil");
@@ -50,6 +50,6 @@ export class References
         this.tables = container.resolve<DatabaseServer>("DatabaseServer").getTables();
         this.jsonUtil = container.resolve<JsonUtil>("JsonUtil");
         this.importerUtil = container.resolve<ImporterUtil>("ImporterUtil");
-        this.preAkiModLoader = container.resolve<PreAkiModLoader>("PreAkiModLoader");
+        this.preSptModLoader = container.resolve<PreSptModLoader>("PreSptModLoader");
     }
 }

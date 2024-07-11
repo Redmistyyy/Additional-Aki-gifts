@@ -1,0 +1,55 @@
+{
+  "templates": {
+    "Xmas2017":{
+      "Message": "Merry Christmas!"
+    },
+    "Xmas2018":{
+      "Message": "Greetings! On behalf of the Escape from Online developers we'd like to present you with this holiday gift set. Thank you for being with us!"
+    },
+    "Xmas2019SE":{
+      "Message": "Standard Edition 2019 new year present!"
+    },
+    "Xmas2019EOD":{
+      "Message": "Christmass Gift 2019 for Edge of Darkness!"
+    },
+    "Xmas2020":{
+      "Message": "New year present!"
+    },
+    "LUNARNEWYEAR2023":{
+      "Message": "Happy Lunar New Year! May the year of the Rabbit bring good luck."
+    },
+    "VOICEBEHIND":{
+      "Message": "Thank you for purchasing of the second book in EFT series by A, Kontorovich. We are glad to give you this theme package with ingame items."
+    },
+    "Appreciation230320": {
+      "Message": "Appreciation Package 23-03-2020"
+    },
+    "Appreciation020720": {
+      "Message": "Appreciation Package 02-07-2020"
+    },
+    "BSGBIRTHDAY2020":{
+      "Message": "Here is a small gift to celebrate the birthday of our company! Good luck in Tarkov!"
+    },
+    "BSGBIRTHDAY2021":{
+      "Message": "Hello, warrior! I've got some info for you: the local brass are celebrating something today. I won't reveal all cards, but there is someone very interested in all this chaos in Tarkov, well, you get me. And so this brass decided to share some goodies with you for more fun. Here, take it, you'll need it. Enjoy!"
+    },
+    "BSGBIRTHDAY2022":{
+      "Message": "Happy Birthday BSG!"
+    },
+    "WANNABESHERPA2022":{
+      "Message": "Dear sherpa, on behalf of everyone here at BSG we wish you a happy birthday! Please accept this gift as a sign of gratiude for your contribution to the development of the Escape from Tarkov community. Good luck in your raids!"
+    },
+    "LPLMVYP14YXKCYC8ASaU":{
+      "Message": "You made it, good work. If something doesn't work.. then blame Philbo."
+    },
+    "Steelseries1":{
+      "Message": "Thank you for activating the code."
+    },
+    "Steelseries2":{
+      "Message": "Thank you for activating the code."
+    },
+    "Unity2021": {
+      "Message": "It will finally advent!"
+    }
+  }
+}

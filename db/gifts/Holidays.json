@@ -919,11 +919,47 @@
       "associatedEvent": "Christmas",
       "items":[
         {
-          "_id": "e257cdf2d7ba7e812acc86a9",
+          "_id": "6576e776424f2c87d30c75d8",
           "_tpl": "5c0e722886f7740458316a57",
           "upd": {
             "StackObjectsCount": 1
           }
+        },
+        {
+          "_id": "6576e776424f2c87d30c75d9",
+          "_tpl": "65730c0e292ecadbfa09ad49",
+          "parentId": "6576e776424f2c87d30c75d8",
+          "slotId": "Soft_armor_front"
+        },
+        {
+          "_id": "6576e776424f2c87d30c75da",
+          "_tpl": "65730c2213a2f660f60bea96",
+          "parentId": "6576e776424f2c87d30c75d8",
+          "slotId": "Soft_armor_back"
+        },
+        {
+          "_id": "6576e776424f2c87d30c75db",
+          "_tpl": "65730c2b292ecadbfa09ad50",
+          "parentId": "6576e776424f2c87d30c75d8",
+          "slotId": "Soft_armor_left"
+        },
+        {
+          "_id": "6576e776424f2c87d30c75dc",
+          "_tpl": "65730c35292ecadbfa09ad54",
+          "parentId": "6576e776424f2c87d30c75d8",
+          "slotId": "soft_armor_right"
+        },
+        {
+          "_id": "6576e776424f2c87d30c75dd",
+          "_tpl": "656fa0fb498d1b7e3e071d9c",
+          "parentId": "6576e776424f2c87d30c75d8",
+          "slotId": "Front_plate"
+        },
+        {
+          "_id": "6576e776424f2c87d30c75de",
+          "_tpl": "656fa0fb498d1b7e3e071d9c",
+          "parentId": "6576e776424f2c87d30c75d8",
+          "slotId": "Back_plate"
         },
         {
           "_id": "0feb2582efb33b638dcb82a1",
