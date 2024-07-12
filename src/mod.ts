@@ -5,12 +5,11 @@ import path                                 from "path";
 
 import { DependencyContainer }              from "tsyringe";
 import { IPreSptLoadMod }                   from "@spt/models/external/IPreSptLoadMod";
-import { IPostDBLoadMod }                   from "@spt/models/external/IPostDBLoadMod";
 
 import { References }                       from "./refs"
 
 
-class AdditionalSptGifts implements IPreSptLoadMod, IPostDBLoadMod {
+class AdditionalSptGifts implements IPreSptLoadMod {
     private mod: string;
     private refs: References = new References();
     private modPath = path.resolve(__dirname.toString()).split(path.sep).join("/")+"/";
@@ -37,31 +36,7 @@ class AdditionalSptGifts implements IPreSptLoadMod, IPostDBLoadMod {
               gifts[newGiftsName] = mydb.gifts[newGiftsLists][newGiftsName];   
             }
         }
-
-        // Call external localization server
-        /*for (const giftsName in gifts) {
-            gifts[giftsName]['localeTextId'] = giftsName + " Message";
-        }*/
     }
-
-    /*public postDBLoad(container: DependencyContainer): void {
-        
-        this.refs.postDBLoad(container);
-
-        const locales = this.refs.tables.locales.global;
-        const mydb = this.refs.importerUtil.loadRecursive(`${this.modPath}../db/`);
-        
-        for (const localeID in mydb.locales)
-            {
-                for (const id in mydb.locales[localeID].templates) {
-                    const item = mydb.locales[localeID].templates[id];
-                    //logger.info(item);
-                    for(const locale in item) {
-                        locales[localeID][`${id} ${locale}`] = item[locale];
-                    }
-                }
-            }
-    }*/
 }
 
 module.exports = { mod: new AdditionalSptGifts() }
